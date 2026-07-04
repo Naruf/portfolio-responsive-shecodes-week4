@@ -7,6 +7,8 @@
   --button-hover-font-colour: black;
   --button-padding: 20px 40px;
   --button-font-size: 18px;
+  --title-font: "Playfair Display", serif;
+  --text-colour: #272142;
 }
 .btn-branding {
   background-color: rgb(108, 99, 255);
@@ -22,14 +24,37 @@
 body {
   font-family: var(--body-font);
   font-weight: 500;
-  font-style: normal;
 }
 h1 {
   font-size: 90px;
-  font-family: "Playfair Display", serif;
+  font-family: var(--title-font);
   font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
+}
+h2 {
+  font-family: var(--title-font);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 64px;
+  padding: 20px 0 20px 0;
+}
+h6 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 50px;
+  margin: 0 0 80px 0;
+}
+.body-container {
+  margin: 0 30px 0 30px;
+}
+.paragraph {
+  font-size: 16px;
+  font-weight: normal;
+  color: #6c757d;
+  font-weight: 500;
+  max-width: 600px;
+  justify-content: center;
 }
 .hero-container p {
   font-size: 36px;
@@ -44,17 +69,65 @@ h1 {
 .hero-container {
   background-color: var(--background-colour);
   text-align: center;
-  padding: 180px 20px;
+  padding: 200px 20px;
+}
+.project-container {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1400px;
+}
+.image-border {
+  padding: 80px 50px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: var(--background-colour);
+}
+.work-button {
+  border-color: var(--button-colour);
+  background-color: white;
+  color: var(--button-colour);
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 0 0 20px 0;
+  }
+  h6 {
+    padding: 0;
+    padding-top: 10px;
+    margin: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  p {
+    text-align: justify;
+    text-align-last: center;
+    color: rgb(134, 134, 134);
+  }
+  .transparent-buttons {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .hero-container {
+    padding: 80px 20px;
+  }
+  .btn-branding {
+    padding: 15px 30px;
+  }
 }
 /* 
 .poppins-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-style: normal;
 }
 .playfair-display-font {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
 } */
