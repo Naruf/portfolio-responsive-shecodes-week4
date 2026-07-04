@@ -1,15 +1,40 @@
+.btn-branding {
+  background-color: rgb(108, 99, 255);
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 17px;
+  width: 160px;
+}
+.btn-branding:hover {
+  color: #000000;
+  background-color: rgb(108, 99, 255);
+}
 body {
-  background-color: pink;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 h1 {
-  font-size: 50px;
+  font-size: 90px;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+.hero-container p {
+  font-size: 36px;
+  font-weight: 800;
+  color: #272142;
+}
+.hero-container h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #272142;
+}
+.hero-container {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 180px 20px;
 }
 /* 
 .poppins-medium {
