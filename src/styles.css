@@ -1,16 +1,26 @@
+:root {
+  --background-colour: #f9f7fe;
+  --body-font: "Poppins", sans-serif;
+  --button-colour: rgb(108, 99, 255);
+  --button-font-colour: #ffffff;
+  --button-border-radius: 4px;
+  --button-hover-font-colour: black;
+  --button-padding: 20px 40px;
+  --button-font-size: 18px;
+}
 .btn-branding {
   background-color: rgb(108, 99, 255);
-  border-radius: 4px;
-  color: #ffffff;
-  font-size: 17px;
-  width: 160px;
+  border-radius: var(--button-border-radius);
+  color: var(--button-font-colour);
+  font-size: var(--button-font-size);
+  padding: var(--button-padding);
 }
 .btn-branding:hover {
-  color: #000000;
-  background-color: rgb(108, 99, 255);
+  color: var(--button-hover-font-colour);
+  background-color: var(--button-colour);
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--body-font);
   font-weight: 500;
   font-style: normal;
 }
@@ -32,7 +42,7 @@ h1 {
   color: #272142;
 }
 .hero-container {
-  background-color: #f9f7fe;
+  background-color: var(--background-colour);
   text-align: center;
   padding: 180px 20px;
 }
