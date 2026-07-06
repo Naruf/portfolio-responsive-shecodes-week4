@@ -9,6 +9,7 @@
   --button-font-size: 18px;
   --title-font: "Playfair Display", serif;
   --text-colour: #272142;
+  --paragraph-font-color: #6c757d;
 }
 .btn-branding {
   background-color: rgb(108, 99, 255);
@@ -51,7 +52,7 @@ h6 {
 .paragraph {
   font-size: 16px;
   font-weight: normal;
-  color: #6c757d;
+  color: var(--paragraph-font-color);
   font-weight: 500;
   max-width: 600px;
   justify-content: center;
@@ -131,3 +132,40 @@ h6 {
   font-optical-sizing: auto;
   font-weight: 700;
 } */
+.about-container {
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+.about-column {
+  display: block;
+  margin: auto;
+  width: 520px;
+}
+.about-heading1 {
+  font-size: 64px;
+  padding: 0 10px 10px 0;
+  margin-top: 0;
+}
+.about-heading2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding: 20px 0 0 0;
+}
+.about-paragraph {
+  color: var(--paragraph-font-color);
+  font-weight: normal;
+  font-size: 16px;
+  padding: 0 10px 10px 0;
+  margin-top: -45px;
+}
+.inquiry-container {
+  background-color: var(--background-colour);
+  max-width: 1150px;
+}
+h3 {
+  font-size: 24px;
+}
+.social-icons {
+  font-size: 20px;
+}
