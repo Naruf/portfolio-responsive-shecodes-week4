@@ -1,7 +1,7 @@
 :root {
-  --background-colour: #f9f7fe;
+  --background-colour: rgb(235, 243, 241);
   --body-font: "Poppins", sans-serif;
-  --button-colour: rgb(108, 99, 255);
+  --button-colour: rgb(65, 165, 148);
   --button-font-colour: #ffffff;
   --button-border-radius: 4px;
   --button-hover-font-colour: black;
@@ -12,7 +12,7 @@
   --paragraph-font-color: #6c757d;
 }
 .btn-branding {
-  background-color: rgb(108, 99, 255);
+  background-color: var(--button-colour);
   border-radius: var(--button-border-radius);
   color: var(--button-font-colour);
   font-size: var(--button-font-size);
@@ -96,7 +96,7 @@ h6 {
   h2 {
     text-align: center;
     font-size: 50px;
-    padding: 0 0 20px 0;
+    padding: 50px 0 20px 0;
   }
   h6 {
     padding: 0;
@@ -116,22 +116,26 @@ h6 {
   }
 
   .hero-container {
-    padding: 80px 20px;
+    padding: 180px 20px;
   }
   .btn-branding {
     padding: 15px 30px;
   }
+  .about-heading1 {
+    font-size: 44px;
+    text-align: center;
+  }
+  .about-heading2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .inquiry-container {
+    margin-top: -160px;
+  }
 }
-/* 
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-.playfair-display-font {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-} */
+
 .about-container {
   margin-bottom: 200px;
   margin-top: 100px;
@@ -161,11 +165,15 @@ h6 {
 }
 .inquiry-container {
   background-color: var(--background-colour);
-  max-width: 1150px;
+  max-width: 1180px;
 }
 h3 {
   font-size: 24px;
 }
 .social-icons {
   font-size: 20px;
+  color: var(--button-colour);
+}
+.background {
+  background-color: var(--background-colour);
 }

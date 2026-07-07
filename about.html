@@ -28,33 +28,72 @@
     <title>Nadia Ruiz - Portfolio</title>
   </head>
   <body>
+    <heading>
+      <nav class="navbar navbar-expand-lg background fixed-top fs-5">
+        <div class="container-fluid background">
+          <a class="navbar-brand ps-5 mt-0 mb-0" href="index.html"
+            ><img
+              src="images/nrf_badge_logo_cropped.png"
+              width="80px"
+              alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-end"
+            id="navbarNavAltMarkup "
+          >
+            <div class="navbar-nav ms-auto gap-5 me-5">
+              <a class="nav-link" aria-current="page" href="index.html#hero"
+                >Home</a
+              >
+              <a class="nav-link active" href="about.html">About</a>
+              <a class="nav-link" href="contact-me.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </heading>
     <div class="about-container d-block mx-auto p-5 container-lg">
       <div class="row g-4 mx-1000">
         <div class="col-md-6 about-column">
           <h1 class="about-heading1">Hi, I am Nadia Ruiz</h1>
-          <h6 class="about-heading2">Front-end Developer, based in Spain</h6>
+          <h6 class="about-heading2 text-center text-md-start">
+            Front-end Developer, based in Spain
+          </h6>
           <p class="about-paragraph">
             For anyone who wants to start learning code, this workshop is very
             interesting. You will be challenged with different exercises, and
             everything is well explained, homework and deadlines are good for
             keep focus
           </p>
-          <div>
-            <a href="#" class="btn btn-branding mt-4">View all project</a>
+          <div class="text-center text-md-start">
+            <a href="index.html" class="btn btn-branding mt-4 mb-5"
+              >View all project</a
+            >
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 d-block m-sm-auto mt-sm-5">
           <img
             src="images/ProfilePic.jpg"
             alt="profile image"
             width="550"
-            class="img-fluid rounded float-center"
+            class="img-fluid rounded-4 float-end m-auto"
           />
         </div>
       </div>
     </div>
     <section>
-      <div class="inquiry-container d-block mx-auto p-4 pe-5 mb-5">
+      <div class="inquiry-container rounded-4 mx-auto p-4 mb-5">
         <div class="row">
           <div class="col-md-6 text-center">
             <h2>Work Inquiry</h2>
@@ -62,23 +101,30 @@
               Let's work together and I'll help you by all my best
             </p>
           </div>
-          <div class="col-md-6 text-end">
-            <a href="#" class="btn btn-branding mt-5 mb-5 me-5"
+          <div class="col-md-6 text-center text-md-end">
+            <a href="#" class="btn btn-branding mt-5 mb-5 me-md-5"
               >Let's talk here</a
             >
           </div>
         </div>
       </div>
     </section>
-    <footer class="socials d-block m-auto text-center p-5">
-      <div>
-        <h3>nadiaruizfdez@gmail.com</h3>
-        <p class="socials-icons p-3 mb-3">
-          <i class="fa-brands fa-square-github fa-2xl"></i>
-          <i class="fa-brands fa-square-linkedin fa-2xl"></i>
-          <i class="fa-solid fa-square-envelope fa-2xl"></i>
-        </p>
-      </div>
+    <footer class="socials d-block m-auto text-center pt-2">
+      <h3 class="m-0">nadiaruizfdez@gmail.com</h3>
+      <p class="socials-icons p-3 mb-3">
+        <i
+          class="fa-brands fa-square-github fa-2xl"
+          style="color: rgb(65, 165, 148)"
+        ></i>
+        <i
+          class="fa-brands fa-square-linkedin fa-2xl"
+          style="color: rgb(65, 165, 148)"
+        ></i>
+        <i
+          class="fa-solid fa-square-envelope fa-2xl"
+          style="color: rgb(65, 165, 148)"
+        ></i>
+      </p>
     </footer>
   </body>
 </html>
