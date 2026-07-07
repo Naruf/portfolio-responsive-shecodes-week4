@@ -136,6 +136,10 @@ h6 {
   .navbar-brand-image {
     width: 50px;
   }
+  h1.contact-heading1 {
+    padding-top: 120px;
+    font-size: 50px;
+  }
 }
 
 .about-container {
@@ -181,6 +185,6 @@ h3 {
 }
 
 .contact-heading1 {
-  padding: 170px 80px;
+  padding: 200px 80px;
   font-size: 64px;
 }
