@@ -115,12 +115,12 @@ h6 {
     margin-bottom: 0px;
   }
   .hero-container {
-    padding: 180px 20px;
+    padding: 140px 20px;
   }
   .btn-branding {
     padding: 15px 30px;
   }
-  .about-heading1 {
+  h1.about-heading1 {
     font-size: 44px;
     text-align: center;
   }
@@ -187,4 +187,7 @@ h3 {
 .contact-heading1 {
   padding: 200px 80px;
   font-size: 64px;
+}
+h1.projects-heading1 {
+  padding: 200px 80px;
 }
