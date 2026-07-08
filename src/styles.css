@@ -209,4 +209,8 @@ h1.projects-heading1 {
   .author-font-size {
     font-size: 11px;
   }
+  .contact h1 {
+    padding: 150px 0px 30px 0px;
+    font-size: 50px;
+  }
 }
