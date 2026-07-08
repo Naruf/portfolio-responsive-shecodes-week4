@@ -139,8 +139,8 @@ h3 {
   background-color: var(--background-colour);
 }
 
-h1.contact-heading1 {
-  padding: 200px 0px;
+.contact h1 {
+  padding: 200px 0px 50px 0px;
   font-size: 64px;
 }
 h1.projects-heading1 {
@@ -150,6 +150,9 @@ h1.projects-heading1 {
 .author-font-size {
   font-size: 15px;
 }
+/* .form-container{
+  
+} */
 
 @media (max-width: 600px) {
   h1 {
@@ -205,6 +208,5 @@ h1.projects-heading1 {
   }
   .author-font-size {
     font-size: 11px;
-    padding: 20px;
   }
 }
