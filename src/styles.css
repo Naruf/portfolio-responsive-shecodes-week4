@@ -47,12 +47,7 @@ h6 {
   padding: 50px;
   margin: 0 0 80px 0;
 }
-.body-container {
-  margin: 0 30px 0 30px;
-  max-width: 1300px;
-  display: block;
-  margin: auto;
-}
+
 .paragraph {
   font-size: 16px;
   font-weight: normal;
@@ -93,11 +88,8 @@ h6 {
   background-color: white;
   color: var(--button-colour);
 }
-
 .about-container {
   padding: 130px 0;
-  /* margin-bottom: 200px; */
-  /* margin-top: 100px; */
 }
 .about-column {
   display: block;
@@ -126,7 +118,9 @@ h6 {
 }
 .inquiry-container {
   background-color: var(--background-colour);
-  /* max-width: 800px; */
+}
+.contact-inquiry-container {
+  margin: 200px;
 }
 h3 {
   font-size: 24px;
@@ -143,16 +137,15 @@ h3 {
   padding: 200px 0px 50px 0px;
   font-size: 64px;
 }
-h1.projects-heading1 {
-  padding: 200px 80px;
+.project-heading h1 {
+  font-size: 65px;
+  padding: 200px 0px 100px 0px;
+  text-align: center;
 }
 
 .author-font-size {
   font-size: 15px;
 }
-/* .form-container{
-  
-} */
 
 @media (max-width: 600px) {
   h1 {
@@ -189,7 +182,6 @@ h1.projects-heading1 {
     font-size: 44px;
     text-align: center;
   }
-
   .about-heading2 {
     display: block;
     margin: auto;
@@ -212,5 +204,8 @@ h1.projects-heading1 {
   .contact h1 {
     padding: 150px 0px 30px 0px;
     font-size: 50px;
+  }
+  .project-heading h1 {
+    padding: 130px 0px 100px 0px;
   }
 }
