@@ -11,18 +11,6 @@
   --text-colour: #272142;
   --paragraph-font-color: #6c757d;
 }
-.btn-branding {
-  background-color: var(--button-colour);
-  border-radius: var(--button-border-radius);
-  box-shadow: 3px 6px 10px rgba(150, 150, 150, 0.5);
-  color: var(--button-font-colour);
-  font-size: var(--button-font-size);
-  padding: var(--button-padding);
-}
-.btn-branding:hover {
-  color: var(--button-hover-font-colour);
-  background-color: var(--button-colour);
-}
 body {
   font-family: var(--body-font);
   font-weight: 500;
@@ -40,53 +28,15 @@ h2 {
   font-size: 64px;
   padding: 20px 0 20px 0;
 }
+h3 {
+  font-size: 24px;
+}
 h6 {
   text-align: center;
   font-size: 18px;
   font-weight: normal;
   padding: 50px;
   margin: 0 0 80px 0;
-}
-
-.paragraph {
-  font-size: 16px;
-  font-weight: normal;
-  color: var(--paragraph-font-color);
-  font-weight: 500;
-  max-width: 600px;
-  justify-content: center;
-}
-.hero-container p {
-  font-size: 36px;
-  font-weight: 800;
-  color: #272142;
-}
-.hero-container h2 {
-  font-size: 24px;
-  font-weight: normal;
-  color: #272142;
-}
-.hero-container {
-  background-color: var(--background-colour);
-  text-align: center;
-  padding: 200px 20px;
-}
-.project-container {
-  display: block;
-  margin: 0 auto;
-  justify-content: center;
-  max-width: 1400px;
-}
-.image-border {
-  padding: 80px 50px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  background-color: var(--background-colour);
-}
-.work-button {
-  border-color: var(--button-colour);
-  background-color: white;
-  color: var(--button-colour);
 }
 .about-container {
   padding: 130px 0;
@@ -116,35 +66,82 @@ h6 {
   margin-top: -45px;
   max-width: 640px;
 }
-.inquiry-container {
-  background-color: var(--background-colour);
-}
-.contact-inquiry-container {
-  margin: 200px;
-}
-h3 {
-  font-size: 24px;
-}
-.social-icons {
-  font-size: 20px;
-  color: var(--button-colour);
+.author-font-size {
+  font-size: 15px;
 }
 .background {
   background-color: var(--background-colour);
 }
-
+.btn-branding {
+  background-color: var(--button-colour);
+  border-radius: var(--button-border-radius);
+  box-shadow: 3px 6px 10px rgba(150, 150, 150, 0.5);
+  color: var(--button-font-colour);
+  font-size: var(--button-font-size);
+  padding: var(--button-padding);
+}
+.btn-branding:hover {
+  color: var(--button-hover-font-colour);
+  background-color: var(--button-colour);
+}
+.contact-inquiry-container {
+  margin: 200px;
+}
 .contact h1 {
   padding: 200px 0px 50px 0px;
   font-size: 64px;
+}
+.hero-container p {
+  font-size: 36px;
+  font-weight: 800;
+  color: #272142;
+}
+.hero-container h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #272142;
+}
+.hero-container {
+  background-color: var(--background-colour);
+  text-align: center;
+  padding: 200px 20px;
+}
+.image-border {
+  padding: 80px 50px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: var(--background-colour);
+}
+.inquiry-container {
+  background-color: var(--background-colour);
+}
+.paragraph {
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--paragraph-font-color);
+  font-weight: 500;
+  max-width: 600px;
+  justify-content: center;
+}
+.project-container {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1400px;
 }
 .project-heading h1 {
   font-size: 65px;
   padding: 200px 0px 100px 0px;
   text-align: center;
 }
-
-.author-font-size {
-  font-size: 15px;
+.social-icons {
+  font-size: 20px;
+  color: var(--button-colour);
+}
+.work-button {
+  border-color: var(--button-colour);
+  background-color: white;
+  color: var(--button-colour);
 }
 
 @media (max-width: 600px) {
@@ -168,45 +165,50 @@ h3 {
     text-align-last: center;
     color: rgb(134, 134, 134);
   }
-  .transparent-buttons {
-    text-align: center;
-    margin-bottom: 0px;
-  }
-  .hero-container {
-    padding: 140px 20px;
-  }
-  .btn-branding {
-    padding: 15px 30px;
-  }
-  h1.about-heading1 {
-    font-size: 44px;
-    text-align: center;
-  }
   .about-heading2 {
     display: block;
     margin: auto;
     text-align: center;
     margin-bottom: 70px;
   }
-  .inquiry-container {
-    margin-top: -160px;
-  }
-  .navbar-brand-image {
-    width: 50px;
-  }
-  h1.contact-heading1 {
-    padding-top: 120px;
-    font-size: 50px;
+  .author-font-size {
+    font-size: 11px;
   }
   .author-font-size {
     font-size: 11px;
+  }
+  .btn-branding {
+    padding: 15px 30px;
   }
   .contact h1 {
     padding: 150px 0px 30px 0px;
     font-size: 50px;
   }
+  .inquiry-container {
+    margin-top: -160px;
+  }
+
+  .hero-container {
+    padding: 140px 20px;
+  }
+  h1.about-heading1 {
+    font-size: 44px;
+    text-align: center;
+  }
+  h1.contact-heading1 {
+    padding-top: 120px;
+    font-size: 50px;
+  }
+
+  .navbar-brand-image {
+    width: 50px;
+  }
   .project-heading h1 {
-    padding: 130px 0px 100px 0px;
+    padding: 130px 0px 80px 0px;
     font-size: 45px;
+  }
+  .transparent-buttons {
+    text-align: center;
+    margin-bottom: 0px;
   }
 }
